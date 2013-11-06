@@ -3,3 +3,11 @@ The solutions found here may not necessarily represent the "best" solution as th
 
 Practice questions taken from "Cracking The Coding Interview" by Gayle Laakmann McDowell  
 http://crackingthecodinginterview.com/
+
+to compile java code to test output:  
+$javac file_name.java  
+$java class_name  
+  
+to compile c code to test output:  
+$gcc file_name.c  
+$./a.out  
