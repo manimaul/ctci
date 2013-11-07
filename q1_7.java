@@ -1,9 +1,10 @@
-import java.util.HashSet;
-
 //write an algorithm such that if an element in a MxN matrix is 0, it's entire row and column are set to 0
+
+import java.util.HashSet;
 
 class q1_7 {
     
+    //answer
     public static void zeroRowAndCol(int[][] matrix) {
         int numRows = matrix.length;
         int numCols = matrix[0].length;

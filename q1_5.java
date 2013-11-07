@@ -2,6 +2,7 @@
 
 class q1_5 {
     
+    //answer
     public static String compressString(String pStr) {
         //loop through pStr looking forward at each character
         //if look ahead is 

@@ -1,6 +1,8 @@
-#include <stdio.h>
 //write a method void reverse(char* str) in c that reverses a char arra in place
 
+#include <stdio.h>
+
+//answer
 void reverseCharArray(char *arr) {
     //find the length of the array
     char tmp;

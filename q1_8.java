@@ -2,6 +2,7 @@
 
 class q1_8 {
 	
+	//answer
 	public static boolean isSubString(String s1, String s2) {
 		//is s1 a sub-string of s2
 		int index = s2.indexOf(s1);

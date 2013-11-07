@@ -1,9 +1,10 @@
-import java.util.HashMap;
-
 //given 2 strings write a method to determin if one is a permutation of the other
 
+import java.util.HashMap;
 
 class q1_3 {
+
+    //answer part
     public static void incrementValueForKey(HashMap<Integer, Integer> pMap, Integer pKey) {
         if (pMap.containsKey(pKey)) {
                 pMap.put(pKey, pMap.get(pKey)+1);
@@ -14,6 +15,7 @@ class q1_3 {
         System.out.println(String.format("key %d, val %d", pKey, pMap.get(pKey)));
     }
 
+    //answer
     public static boolean isPermutationOf(String str1, String str2) {
         //if they're different lenghts return false
         if (str1.length() != str2.length()) {

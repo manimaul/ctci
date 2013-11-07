@@ -1,7 +1,8 @@
 //implement and algotithm to determine if a string has all unique charachters, What if you cannot use additional data structures
 
 class q1_1 {
-  
+    
+    //answer
     public static boolean allCharsUnique(String asciiStr) {
         //create a boolean array for each posible charachter //256 in ascii
         final boolean[] found = new boolean[256];

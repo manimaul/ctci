@@ -1,6 +1,8 @@
 //write a method to replace all spaces in a string with %20.  Assume that the string has sufficient space to hold the additional characters and you know the true lenght of the string. Method must ber perfomed in place. (Use a char array in java)
 
 class q1_4 {
+
+    //answer - note: in "real life" one would use java.net.URLEncoder
     public static void encodeUrlSpaces(char[] str, int length) {
         //scan and count number of spaces
         int newLength = length;
