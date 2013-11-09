@@ -1,4 +1,4 @@
-//Implement an algorithm to find the kth to last element of a lingly linked list
+//Implement an algorithm to find the kth to last element of a singly linked list
 
 import java.util.LinkedList;
 import java.util.Iterator;
@@ -52,7 +52,6 @@ class q2_2 {
 
 	public static void main(String[] args) {
 		//pretend that this is a singly linked list
-		//http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html
 		LinkedList<Integer> intList = new LinkedList<Integer>();
 
 		intList.add(new Integer(0)); //5th from last
