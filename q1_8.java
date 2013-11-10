@@ -2,7 +2,6 @@
 
 class q1_8 {
 	
-	//answer
 	public static boolean isSubString(String s1, String s2) {
 		//is s1 a sub-string of s2
 		int index = s2.indexOf(s1);
@@ -12,6 +11,7 @@ class q1_8 {
 		return true;
 	}
 
+	//answer
 	public static boolean isStringRotation(String s1, String s2) {
 		return isSubString(s1, s2 + s2);
 	}

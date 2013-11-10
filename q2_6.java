@@ -6,6 +6,8 @@
 //Output: d
 
 class q2_6 {
+
+	//answer
 	public static CorruptList.Node findCircularStart(CorruptList pList) {
 		CorruptList.Node runner = pList.head;
 		CorruptList.Node fastRunner = pList.head;
