@@ -2,7 +2,7 @@
 
 class q3_1 {
 
-	//demonstration of implementation
+	//demonstration of implementation 
 	public static void main(String[] args) {
 		String str = "\nnoitartsnomed\n";
 		TripleStackArray tsa = new TripleStackArray(str.length());
