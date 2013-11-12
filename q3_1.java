@@ -1,3 +1,4 @@
+//Describe how you could use a single array to implement three stacks.
 
 class q3_1 {
 
